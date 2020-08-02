@@ -1,0 +1,19 @@
+{
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "repository": "git@github.com:MathieuPuech/lea.git",
+  "author": "Mathieu Puech <mathieupuech@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@mdjs/core": "^0.3.3",
+    "@open-wc/demoing-storybook": "^2.3.14"
+  },
+  "scripts": {
+    "start": "npm run storybook",
+    "storybook": "start-storybook -p 9001",
+    "storybook:build": "build-storybook",
+    "storybook:build:start": "es-dev-server --root-dir storybook-static --open"
+  }
+}
