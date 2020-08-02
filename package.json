@@ -8,12 +8,16 @@
   "license": "MIT",
   "devDependencies": {
     "@mdjs/core": "^0.3.3",
-    "@open-wc/demoing-storybook": "^2.3.14"
+    "@open-wc/demoing-storybook": "^2.3.14",
+    "babel-plugin-extend-docs": "^0.2.3",
+    "providence-analytics": "^0.3.0"
   },
   "scripts": {
+    "providence:extend": "yarn workspaces run providence:extend",
     "start": "npm run storybook",
     "storybook": "start-storybook -p 9001",
     "storybook:build": "build-storybook",
-    "storybook:build:start": "es-dev-server --root-dir storybook-static --open"
+    "storybook:build:start": "es-dev-server --root-dir storybook-static --open",
+    "upgrade:lion": "yarn upgrade --scope @lion --latest --exact && yarn providence:extend"
   }
 }

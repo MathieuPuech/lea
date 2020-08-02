@@ -1,6 +1,7 @@
 module.exports = {
   stories: [
-    '../packages/*/README.md',
+    '../node_modules/@lion/tabs/README.md',
+    '../packages/**/!(*.override)*.md'
   ],
   addons: [
     // order of tabs in addons panel
@@ -17,5 +18,6 @@ module.exports = {
     nodeResolve: true,
     watch: true,
     open: true,
+    babel: true,
   },
 };
