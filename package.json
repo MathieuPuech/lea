@@ -7,10 +7,11 @@
   "author": "Mathieu Puech <mathieupuech@gmail.com>",
   "license": "MIT",
   "devDependencies": {
-    "@mdjs/core": "^0.3.3",
-    "@open-wc/demoing-storybook": "^2.3.14",
+    "@mdjs/core": "^0.4.0",
+    "@open-wc/demoing-storybook": "^2.4.5",
     "babel-plugin-extend-docs": "^0.2.3",
-    "providence-analytics": "^0.3.0"
+    "providence-analytics": "^0.6.3",
+    "remark-extend": "^0.2.1"
   },
   "scripts": {
     "providence:extend": "yarn workspaces run providence:extend",

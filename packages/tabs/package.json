@@ -5,7 +5,7 @@
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
-    "@lion/tabs": "^0.5.0"
+    "@lion/tabs": "^0.5.6"
   },
   "sideEffects": [
     "lea-tabs.js",

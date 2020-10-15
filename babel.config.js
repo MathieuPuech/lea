@@ -1,9 +1,15 @@
 const path = require('path');
+
+const fs = require('fs');
+fs.readdirSync('packages').forEach(package => {
+  console.log(package);
+});
 const providenceExtendConfig = require('./packages/tabs/providence-extend-docs-data.json');
 
 const extendDocsConfig = {
   rootPath: path.resolve('.'),
   changes: providenceExtendConfig,
+  throwOnNonExistingPathToFiles: false,
 };
 
 module.exports = {
