@@ -1,0 +1,27 @@
+[
+  {
+    "name": "LionTabs",
+    "variable": {
+      "from": "LionTabs",
+      "to": "LeaTabs",
+      "paths": [
+        {
+          "from": "./index.js",
+          "to": "./packages/tabs/src/LeaTabs.js"
+        },
+        {
+          "from": "./src/LionTabs.js",
+          "to": "./packages/tabs/src/LeaTabs.js"
+        },
+        {
+          "from": "@lion/tabs/index.js",
+          "to": "./packages/tabs/src/LeaTabs.js"
+        },
+        {
+          "from": "@lion/tabs/src/LionTabs.js",
+          "to": "./packages/tabs/src/LeaTabs.js"
+        }
+      ]
+    }
+  }
+]
