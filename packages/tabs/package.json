@@ -11,5 +11,8 @@
     "lea-tabs.js",
     "lea-tab.js",
     "lea-tab-panel.js"
-  ]
+  ],
+  "scripts": {
+    "providence:extend": "providence extend-docs -r \"../../node_modules/@lion/*\" --prefix-from lion --prefix-to lea"
+  }
 }

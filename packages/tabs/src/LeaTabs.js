@@ -1,5 +1,5 @@
-import { css } from 'lit-element';
-import { LionTabs } from '@lion/tabs';
+import { css } from "lit-element";
+import { LionTabs } from "@lion/tabs";
 
 export class LeaTabs extends LionTabs {
   static get styles() {
@@ -7,7 +7,7 @@ export class LeaTabs extends LionTabs {
       super.styles,
       css`
         :host {
-          background: #222;
+          background: red;
           display: block;
           padding: 20px;
         }
